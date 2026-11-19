@@ -1,0 +1,6 @@
+@import "./assets/modern-normalize.css";
+@import "./assets/reset.css";
+
+p {
+  font-size: 2rem;
+}
