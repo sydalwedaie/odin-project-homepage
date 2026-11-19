@@ -2,7 +2,7 @@
 
 ![screenshot](./docs/screenshot.png)
 
-# The Odin Project - Title
+# The Odin Project - Homepage
 
 ![html5 badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![css 3 badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -11,10 +11,10 @@
 ![webpack badge](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
 ![netlify badge](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-A solution to the [Project: ](<>)'s challenge from The Odin Project.
+A solution to the [Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage)'s challenge from The Odin Project.
 
-[Source Code](<>) •
-[Live Preview](<>)
+[Source Code](https://github.com/sydalwedaie/odin-project-homepage) •
+[Live Preview](https://odin-project-homepage-ri81j.netlify.app/)
 </div>
 
 ## Project Description
