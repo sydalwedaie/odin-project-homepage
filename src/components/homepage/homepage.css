@@ -1,0 +1,6 @@
+.c-homepage {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}

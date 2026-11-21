@@ -1,5 +1,6 @@
 import "./index.css";
 import "./template.html";
+import { Homepage } from "./components/homepage/homepage.js";
 
-const p = document.querySelector("p");
-p.textContent = "Hello Webpack!";
+const bodyEl = document.querySelector("body");
+bodyEl.innerHTML = Homepage();
