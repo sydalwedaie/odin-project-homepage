@@ -1,12 +1,13 @@
 import "./homepage.css";
+import { Header } from "../header/header.js";
 
 export function Homepage() {
   const html = String.raw;
   const markup = html`
     <div class="c-homepage">
-      <header class="c-homepage__header"></header>
-      <main class="c-homepage__main"></main>
-      <footer class="c-homepage__footer"></footer>
+      <div class="c-homepage__header">${Header()}</div>
+      <div class="c-homepage__main"></div>
+      <div class="c-homepage__footer"></div>
     </div>
   `;
   return markup;
