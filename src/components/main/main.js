@@ -1,4 +1,6 @@
 import "./main.css";
+import { Card } from "../card/card.js";
+import data from "./data.json";
 
 export function Main() {
   const html = String.raw;
@@ -6,12 +8,9 @@ export function Main() {
     <main class="c-main">
       <h2 class="c-main__title">My Work</h2>
       <div class="c-main__body">
-        <div class="c-main__card">card-1</div>
-        <div class="c-main__card">card-2</div>
-        <div class="c-main__card">card-3</div>
-        <div class="c-main__card">card-4</div>
-        <div class="c-main__card">card-5</div>
-        <div class="c-main__card">card-6</div>
+        ${data
+          .map((project) => `<div class="c-main__card">${Card(project)}</div>`)
+          .join("")}
       </div>
     </main>
   `;
