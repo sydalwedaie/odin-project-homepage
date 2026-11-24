@@ -1,0 +1,50 @@
+.c-about {
+  --hero-offset-top: 6rem;
+  --hero-offset-left: 3rem;
+  background-color: white;
+  @media (min-width: 500px) {
+    margin-top: var(--hero-offset-top);
+    margin-left: var(--hero-offset-left);
+  }
+
+  @media (min-width: 800px) {
+    --hero-offset-top: 3rem;
+    --hero-offset-left: 0;
+  }
+}
+.c-about__hero {
+  position: relative;
+
+  @media (min-width: 500px) {
+    width: 60%;
+    float: left;
+    padding-right: 1rem;
+    margin-top: calc(var(--hero-offset-top) * -1);
+    margin-left: calc(var(--hero-offset-left) * -1);
+  }
+
+  @media (min-width: 800px) {
+    width: 400px;
+  }
+}
+
+.c-about__name {
+  position: absolute;
+  bottom: 0;
+
+  @media (min-width: 500px) {
+    bottom: initial;
+    right: -20%;
+  }
+
+  @media (min-width: 800px) {
+    right: initial;
+    bottom: 0;
+  }
+}
+
+.c-about__image {
+  img {
+    width: 100%;
+  }
+}

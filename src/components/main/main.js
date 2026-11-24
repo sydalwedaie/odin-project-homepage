@@ -4,7 +4,7 @@ export function Main() {
   const html = String.raw;
   const markup = html`
     <main class="c-main">
-      <h1 class="c-main__title">My Work</h1>
+      <h2 class="c-main__title">My Work</h2>
       <div class="c-main__body">
         <div class="c-main__card">card-1</div>
         <div class="c-main__card">card-2</div>
