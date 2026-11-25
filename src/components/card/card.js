@@ -7,7 +7,12 @@ export function Card({ imgUrl, projectName, projectDescription }) {
   const markup = html`
     <article class="c-card">
       <div class="c-card__image-wrapper">
-        <img src="${imgUrl}" alt="${projectName}" class="c-card__image" />
+        <img
+          src="${imgUrl}"
+          alt="${projectName}"
+          class="c-card__image"
+          loading="lazy"
+        />
       </div>
       <div class="c-card__info-wrapper">
         <h3 class="c-card__title">${projectName}</h3>

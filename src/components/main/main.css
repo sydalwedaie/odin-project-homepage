@@ -1,11 +1,9 @@
 .c-main {
-  padding: 1rem;
-  padding: clamp(0.5rem, 8vw, 3rem);
-  padding-bottom: 0;
-
   display: grid;
   gap: 1rem;
 
+  padding: clamp(0.5rem, 8vw, 3rem);
+  padding-bottom: 0;
   @media (min-width: 550px) {
     padding: clamp(2rem, 5vw, 3rem);
   }
@@ -13,6 +11,6 @@
 
 .c-main__body {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 2rem;
 }

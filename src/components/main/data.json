@@ -1,32 +1,32 @@
 [
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-admin-dashboard/blob/main/public/og-image.png?raw=true",
+    "projectName": "Admin Dashboard",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   },
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-battleship/blob/main/public/og-image.png?raw=true",
+    "projectName": "Battleship",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   },
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-knight-travails/blob/main/screenshot.png?raw=true",
+    "projectName": "Knights Travails",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   },
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-weather-app/blob/main/public/og-image.png?raw=true",
+    "projectName": "Weather App",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   },
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-todo/blob/main/public/og-image.png?raw=true",
+    "projectName": "Todo App",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   },
   {
-    "imgUrl": "https://placehold.co/250x200/png",
-    "projectName": "Project name",
+    "imgUrl": "https://github.com/sydalwedaie/odin-project-calculator/blob/main/screenshot.jpg?raw=true",
+    "projectName": "Calculator",
     "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
   }
 ]
