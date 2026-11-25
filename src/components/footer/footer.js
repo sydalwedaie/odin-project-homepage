@@ -1,5 +1,9 @@
 import "./footer.css";
 import { Contact } from "../contact/contact.js";
+import footerL1x from "./footer-landscape@1x.jpg";
+import footerL2x from "./footer-landscape@2x.jpg";
+import footerP1x from "./footer-portrait@1x.jpg";
+import footerP2x from "./footer-portrait@2x.jpg";
 
 const data = {
   address: "4321 Pretty Road, Cool Town, North Pole 1234",
@@ -15,10 +19,14 @@ export function Footer() {
       <div class="c-footer__image-wrapper">
         <picture class="c-footer__image">
           <source
-            media="(width >= 800px)"
-            srcset="https://placehold.co/400x350.png"
+            media="(width >= 550px)"
+            srcset="${footerL1x} 1x, ${footerL2x} 2x"
           />
-          <img src="https://placehold.co/300x450.png" alt="" />
+          <source
+            media="(width < 550px)"
+            srcset="${footerP1x} 1x, ${footerP2x} 2x"
+          />
+          <img srcset="${footerL2x} 2x" src="${footerL1x}" alt="Footer image" />
         </picture>
       </div>
     </footer>

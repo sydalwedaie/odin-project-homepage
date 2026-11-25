@@ -3,6 +3,11 @@
   gap: 0.5rem;
 }
 
+.c-social__link {
+  cursor: pointer;
+}
+
 .c-social__icon {
-  width: 28px;
+  width: 30px;
+  filter: invert(0.2);
 }
