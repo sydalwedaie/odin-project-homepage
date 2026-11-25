@@ -5,4 +5,8 @@
   gap: 3rem;
   max-width: 1000px;
   margin: 0 auto;
+
+  @media (min-width: 800px) {
+    gap: 6rem;
+  }
 }

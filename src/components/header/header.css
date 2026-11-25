@@ -1,6 +1,7 @@
 .c-header {
   position: relative;
   padding: clamp(0.5rem, 8vw, 3rem);
+  padding-bottom: 0;
 
   @media (min-width: 550px) {
     padding: clamp(2rem, 5vw, 3rem);
@@ -15,17 +16,17 @@
   right: 0;
   height: 55vh;
   background-color: orange;
-  transform: skewY(350deg);
+  transform: skewY(345deg);
   transform-origin: left;
   box-shadow: 0 3px 5px #bbbbbb;
 
   @media (min-width: 550px) {
     height: initial;
-    bottom: 30%;
+    bottom: 20%;
   }
 
   @media (min-width: 800px) {
-    bottom: 0;
+    bottom: -10%;
   }
 }
 

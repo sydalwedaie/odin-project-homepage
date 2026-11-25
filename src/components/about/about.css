@@ -1,6 +1,6 @@
 .c-about {
   @media (min-width: 550px) {
-    --hero-offset-top: 6rem;
+    --hero-offset-top: 5rem;
     --hero-offset-left: 3rem;
     margin-top: var(--hero-offset-top);
     margin-left: var(--hero-offset-left);
@@ -9,9 +9,11 @@
   }
 
   @media (min-width: 800px) {
-    --hero-offset-top: 3rem;
+    --hero-offset-top: 2rem;
     --hero-offset-left: 0;
-    padding-left: 0;
+    padding: 1rem 1rem 1rem 0;
+    display: grid;
+    grid-auto-flow: column;
   }
 }
 .c-about__hero {
@@ -19,6 +21,7 @@
 
   @media (min-width: 550px) {
     width: 60%;
+    max-width: 400px;
     float: left;
     padding-right: 1rem;
     margin-top: calc(var(--hero-offset-top) * -1);
@@ -26,7 +29,8 @@
   }
 
   @media (min-width: 800px) {
-    width: 450px;
+    margin-block: -3rem;
+    width: 100%;
   }
 }
 
@@ -42,7 +46,7 @@
 
   @media (min-width: 550px) {
     bottom: initial;
-    right: -20%;
+    right: -45%;
   }
 
   @media (min-width: 800px) {
@@ -52,6 +56,8 @@
 }
 
 .c-about__image {
+  box-shadow: 0 2px 10px #8c8a8a;
+  height: 100%;
   img {
     width: 100%;
     height: 60vh;
@@ -60,40 +66,37 @@
 
     @media (min-width: 550px) {
       height: auto;
+      max-height: 350px;
     }
 
     @media (min-width: 800px) {
-      height: 110%;
+      max-height: initial;
+      height: 100%;
     }
-  }
-}
-
-.c-about__body {
-  margin-top: 1rem;
-
-  @media (min-width: 550px) {
-    display: initial;
   }
 }
 
 .c-about__title {
   margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .c-about__text {
-  margin-bottom: 1rem;
-
   @media (min-width: 550px) {
     padding-inline: 1rem;
+  }
+
+  @media (min-width: 800px) {
+    padding-left: 0;
   }
 }
 
 .c-about__social {
+  padding: 1rem;
   display: flex;
   justify-content: center;
 
   @media (min-width: 550px) {
-    padding: 1rem;
     justify-content: flex-end;
   }
 }

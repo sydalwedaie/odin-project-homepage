@@ -32,7 +32,7 @@ export function About() {
           libero impedit necessitatibus modi totam! Lorem ipsum dolor sit amet
           consectetur adipisicing elit. Deserunt porro a esse velit recusandae
           eos maxime, neque nemo quia maiores eum exercitationem ducimus,
-          repellat earum.
+          repellat earum. Lorem ipsum dolor sit amet consectetur adipisicing.
         </p>
         <div class="c-about__social">${Social()}</div>
       </div>
