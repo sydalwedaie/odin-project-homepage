@@ -1,5 +1,9 @@
 import "./about.css";
 import { Social } from "../social/social.js";
+import heroL1x from "../common/hero-landscape@1x.jpg";
+import heroL2x from "../common/hero-landscape@2x.jpg";
+import heroP1x from "../common/hero-portrait@1x.jpg";
+import heroP2x from "../common/hero-portrait@2x.jpg";
 
 export function About() {
   const html = String.raw;
@@ -10,9 +14,13 @@ export function About() {
         <picture class="c-about__image">
           <source
             media="(width >= 500px)"
-            srcset="https://placehold.co/400x450.png"
+            srcset="${heroL1x} 1x, ${heroL2x} 2x"
           />
-          <img src="https://placehold.co/300x450.png" alt="" />
+          <source
+            media="(width < 500px)"
+            srcset="${heroP1x} 1x, ${heroP2x} 2x"
+          />
+          <img srcset="${heroL2x} 2x" src="${heroL1x}" alt="Hero image" />
         </picture>
       </div>
       <div class="c-about__body">
