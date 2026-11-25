@@ -1,24 +1,31 @@
 .c-header {
   position: relative;
-  padding: 1.5rem;
-  &::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 40%;
-    background-color: orange;
-    transform: skewY(350deg);
-    transform-origin: left;
-    box-shadow: 0 3px 5px #bbbbbb;
+  padding: clamp(0.5rem, 8vw, 3rem);
 
-    @media (min-width: 500px) {
-      bottom: 30%;
-    }
-    @media (min-width: 800px) {
-      bottom: -10%;
-    }
+  @media (min-width: 550px) {
+    padding: clamp(2rem, 5vw, 3rem);
+  }
+}
+
+.c-header::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 55vh;
+  background-color: orange;
+  transform: skewY(350deg);
+  transform-origin: left;
+  box-shadow: 0 3px 5px #bbbbbb;
+
+  @media (min-width: 550px) {
+    height: initial;
+    bottom: 30%;
+  }
+
+  @media (min-width: 800px) {
+    bottom: 0;
   }
 }
 

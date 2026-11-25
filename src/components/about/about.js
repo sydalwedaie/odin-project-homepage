@@ -25,12 +25,15 @@ export function About() {
       </div>
       <div class="c-about__body">
         <h2 class="c-about__title">About me</h2>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid aliquam
-        magnam distinctio dolore optio explicabo, amet nostrum incidunt maiores
-        earum doloremque! Ullam, voluptates inventore a libero impedit
-        necessitatibus modi totam! Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Deserunt porro a esse velit recusandae eos maxime,
-        neque nemo quia maiores eum exercitationem ducimus, repellat earum.
+        <p class="c-about__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          aliquam magnam distinctio dolore optio explicabo, amet nostrum
+          incidunt maiores earum doloremque! Ullam, voluptates inventore a
+          libero impedit necessitatibus modi totam! Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Deserunt porro a esse velit recusandae
+          eos maxime, neque nemo quia maiores eum exercitationem ducimus,
+          repellat earum.
+        </p>
         <div class="c-about__social">${Social()}</div>
       </div>
     </div>

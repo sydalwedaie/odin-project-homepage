@@ -1,22 +1,23 @@
 .c-about {
-  --hero-offset-top: 6rem;
-  --hero-offset-left: 3rem;
-  background-color: white;
-  @media (min-width: 500px) {
+  @media (min-width: 550px) {
+    --hero-offset-top: 6rem;
+    --hero-offset-left: 3rem;
     margin-top: var(--hero-offset-top);
     margin-left: var(--hero-offset-left);
+    background-color: white;
     box-shadow: 0 3px 5px #bbbbbb;
   }
 
   @media (min-width: 800px) {
     --hero-offset-top: 3rem;
     --hero-offset-left: 0;
+    padding-left: 0;
   }
 }
 .c-about__hero {
   position: relative;
 
-  @media (min-width: 500px) {
+  @media (min-width: 550px) {
     width: 60%;
     float: left;
     padding-right: 1rem;
@@ -25,15 +26,21 @@
   }
 
   @media (min-width: 800px) {
-    width: 400px;
+    width: 450px;
   }
 }
 
 .c-about__name {
   position: absolute;
   bottom: 0;
+  padding: 0.5rem;
 
-  @media (min-width: 500px) {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1;
+  text-shadow: 3px 3px 5px black;
+
+  @media (min-width: 550px) {
     bottom: initial;
     right: -20%;
   }
@@ -47,5 +54,46 @@
 .c-about__image {
   img {
     width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    object-position: left bottom;
+
+    @media (min-width: 550px) {
+      height: auto;
+    }
+
+    @media (min-width: 800px) {
+      height: 110%;
+    }
+  }
+}
+
+.c-about__body {
+  margin-top: 1rem;
+
+  @media (min-width: 550px) {
+    display: initial;
+  }
+}
+
+.c-about__title {
+  margin-bottom: 1rem;
+}
+
+.c-about__text {
+  margin-bottom: 1rem;
+
+  @media (min-width: 550px) {
+    padding-inline: 1rem;
+  }
+}
+
+.c-about__social {
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: 550px) {
+    padding: 1rem;
+    justify-content: flex-end;
   }
 }
