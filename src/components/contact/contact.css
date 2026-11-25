@@ -1,5 +1,6 @@
 .c-contact {
-  color: white;
+  font-size: 1.1rem;
+  color: #332a2a;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -13,7 +14,7 @@
 
 .c-contact__icon {
   width: 24px;
-  filter: invert(1);
+  filter: invert(0.2);
 }
 
 .c-contact__tell,

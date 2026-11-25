@@ -7,7 +7,7 @@ export function Contact(data) {
   const html = String.raw;
   const markup = html`
     <div class="c-contact">
-      <h2 class="c-contact__title">Contact</h2>
+      <h2 class="c-contact__title">Contact Me</h2>
       <div class="c-contact__text">
         Reach out to schedule a one-on-one over a coffee!
       </div>

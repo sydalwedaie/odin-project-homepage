@@ -16,7 +16,7 @@
   right: 0;
   height: 55vh;
   background-color: orange;
-  transform: skewY(345deg);
+  animation: skew 2s forwards;
   transform-origin: left;
   box-shadow: 0 3px 5px #bbbbbb;
 
@@ -33,4 +33,14 @@
 .c-header__about {
   position: relative;
   z-index: 99;
+}
+
+@keyframes skew {
+  from {
+    transform: skewY(-10deg);
+  }
+
+  to {
+    transform: skewY(-15deg);
+  }
 }

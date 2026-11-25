@@ -40,7 +40,7 @@
   padding: 0.5rem;
 
   color: white;
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 1;
   text-shadow: 3px 3px 5px black;
 
@@ -52,6 +52,7 @@
   @media (min-width: 800px) {
     right: initial;
     bottom: 0;
+    padding: 1rem;
   }
 }
 

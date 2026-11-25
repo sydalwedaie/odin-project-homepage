@@ -2,10 +2,9 @@
   display: grid;
   gap: 1rem;
 
-  padding: clamp(0.5rem, 8vw, 3rem);
-  padding-bottom: 0;
+  padding-inline: clamp(0.5rem, 8vw, 3rem);
   @media (min-width: 550px) {
-    padding: clamp(2rem, 5vw, 3rem);
+    padding-inline: clamp(2rem, 5vw, 3rem);
   }
 }
 
