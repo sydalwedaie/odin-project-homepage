@@ -1,4 +1,5 @@
 import "./about.css";
+import { Social } from "../social/social.js";
 
 export function About() {
   const html = String.raw;
@@ -22,7 +23,7 @@ export function About() {
         necessitatibus modi totam! Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Deserunt porro a esse velit recusandae eos maxime,
         neque nemo quia maiores eum exercitationem ducimus, repellat earum.
-        <div class="c-about__social">social links</div>
+        <div class="c-about__social">${Social()}</div>
       </div>
     </div>
   `;

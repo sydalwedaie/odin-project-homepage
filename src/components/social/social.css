@@ -1,0 +1,8 @@
+.c-social {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.c-social__icon {
+  width: 28px;
+}

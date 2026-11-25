@@ -1,6 +1,7 @@
 import "./contact.css";
 import iconTell from "./icon-tell.svg";
 import iconEmail from "./icon-email.svg";
+import { Social } from "../social/social.js";
 
 export function Contact(data) {
   const html = String.raw;
@@ -19,7 +20,7 @@ export function Contact(data) {
         <img src="${iconEmail}" alt="" class="c-contact__icon" />
         <span class="c-contact__email-address">${data.email}</span>
       </div>
-      <div class="c-contact__social">[SOCIAL LINKS]</div>
+      <div class="c-contact__social">${Social()}</div>
     </div>
   `;
   return markup;
