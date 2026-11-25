@@ -1,8 +1,7 @@
 .c-homepage {
-  background-color: antiquewhite;
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 3rem;
   max-width: 1000px;
   margin: 0 auto;
 }

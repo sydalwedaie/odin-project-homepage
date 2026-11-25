@@ -1,4 +1,18 @@
 .c-footer {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: orange;
+
+  @media (min-width: 500px) {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+.c-footer__image {
+  img {
+    width: 100%;
+  }
 }

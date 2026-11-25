@@ -5,6 +5,7 @@
   @media (min-width: 500px) {
     margin-top: var(--hero-offset-top);
     margin-left: var(--hero-offset-left);
+    box-shadow: 0 3px 5px #bbbbbb;
   }
 
   @media (min-width: 800px) {
