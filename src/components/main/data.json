@@ -2,31 +2,43 @@
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-admin-dashboard/blob/main/public/og-image.png?raw=true",
     "projectName": "Admin Dashboard",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-admin-dashboard",
+    "liveDemo": "https://odin-project-admin-dashboard-x9zka.netlify.app/"
   },
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-battleship/blob/main/public/og-image.png?raw=true",
     "projectName": "Battleship",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-battleship",
+    "liveDemo": "https://ugcy2-odin-project-battleship.netlify.app/"
   },
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-knight-travails/blob/main/screenshot.png?raw=true",
     "projectName": "Knights Travails",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-knight-travails",
+    "liveDemo": ""
   },
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-weather-app/blob/main/public/og-image.png?raw=true",
     "projectName": "Weather App",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-weather-app",
+    "liveDemo": "https://odin-weather-app-not4g.netlify.app/"
   },
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-todo/blob/main/public/og-image.png?raw=true",
     "projectName": "Todo App",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-todo",
+    "liveDemo": "https://odin-project-todo-0usyw.netlify.app/"
   },
   {
     "imgUrl": "https://github.com/sydalwedaie/odin-project-calculator/blob/main/screenshot.jpg?raw=true",
     "projectName": "Calculator",
-    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis."
+    "projectDescription": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt molestias soluta veritatis.",
+    "repo": "https://github.com/sydalwedaie/odin-project-calculator",
+    "liveDemo": "https://odin-project-calculator-f3sk8.netlify.app/"
   }
 ]
