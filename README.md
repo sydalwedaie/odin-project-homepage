@@ -1,6 +1,6 @@
 <div align="center">
 
-![screenshot](./docs/screenshot.png)
+![screenshot](./docs/screenshot.jpg)
 
 # The Odin Project - Homepage
 
