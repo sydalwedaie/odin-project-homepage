@@ -18,3 +18,5 @@ A solution to the [Project: Homepage](https://www.theodinproject.com/lessons/nod
 </div>
 
 ## Project Description
+
+This is the capstone project of the Advanced HTML/CSS course. The main focus is on responsive design (mobile to desktop), with some animated elements and emphasis on accessibility.
